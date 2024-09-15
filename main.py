@@ -1,7 +1,6 @@
 import random
-
-random_number = random.randint(1, 100)
 while True:
+    random_number = random.randint(1, 100)
     print("I'm thinking of a number between 1 and 100. Can you guess it?")
     print("Select a difficulty level:")
     print("1. Easy (10 guesses)")
